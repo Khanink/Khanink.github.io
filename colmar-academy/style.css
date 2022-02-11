@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  color: #4a4a4a;
+  margin-right: 24px;
+}
+
+.nav-item {
+  margin: 0 16px;
+}
+
+.navbar h1 {
+  font-size: 25px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: left;
+  margin-left: 24px;
+}
+
+.logo img {
+  padding: 5px;
+  width: 32px;
+}
+
+.logo h1 ul li {
+  margin: 20px;
+}
+
+.section-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #d8d8d8;
+}
+
+.section-h img {
+  width: 60%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+.section-h .content-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #4a4a4a;
+}
+
+.section-h .content-1 .container-fluid h1 {
+  padding-bottom: 30px;
+  padding-left: 24px;
+}
+
+.section-h .content-1 .container-fluid p {
+  padding-bottom: 30px;
+  padding-left: 24px;
+}
+
+.section-h .content-1 .container-fluid .btn {
+  background-color: #4a4a4a;
+  color: white;
+  width: 50%;
+  height: 32px;
+  padding-bottom: 30px;
+  margin-left: 24px;
+  text-align: center;
+}
+
+/* first section*/
+
+/*Second Section*/
+
+.one-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.one-section .container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  margin: 24px;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+.left img {
+  width: 60%;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 30%;
+  height: auto;
+}
+
+.box-text {
+  display: flexbox;
+  flex-direction: row;
+}
+
+/* sectipn2 */
+.section-2 {
+  background-color: #eaebec;
+}
+
+.section-2 h3 {
+  padding: 32px;
+}
+
+.container-sec-2 {
+  padding: 32px;
+  margin-top: 0px;
+  margin: 72px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 32px;
+}
+
+.card {
+  display: flex;
+  margin: 32px;
+}
+
+.card-body {
+  margin: 8px 16px;
+}
+
+/* section3 */
