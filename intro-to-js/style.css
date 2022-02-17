@@ -1,0 +1,19 @@
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background-color: plum;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+button {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
