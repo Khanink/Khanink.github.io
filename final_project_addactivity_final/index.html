@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Add Activity Page</title>
+</head>
+<header class="site-header">
+    <div class="wrapper site-header__wrapper">
+        <div class="site-header__start">
+            <nav class="nav">
+                <!-- <button class="nav__toggle" aria-expanded="false" type="button">
+                    menu
+                </button> -->
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <ul class="nav__wrapper">
+                    <li class="nav__item"><a href="#">Profile</a></li>
+                    <li class="nav__item"><a href="#">Activity History</a></li>
+                    <li class="nav__item"><a href="#">Notification</a></li>
+                    <li class="nav__item"><a href="#">Setting</a></li>
+                    <li class="nav__item"><a href="#">About</a></li>
+                    <li class="nav__item"><a href="#">Service</a></li>
+                    <li class="nav__item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="brand">9pack</a>
+            <div class="search">
+                <button class="search__toggle" aria-label="Open search">
+                    Search
+                </button>
+                <form class="search__form" action="">
+                    <label class="sr-only" for="search">Search</label>
+                    <input type="search" name="" id="search" placeholder="What's on your mind?" />
+                </form>
+            </div>
+        </div>
+        <div class="site-header__end">
+            <img id="proflie" src="./image/966-9665493_my-profile-icon-blank-profile-image-circle.png" width="50px">
+        </div>
+    </div>
+</header>
+<script src="/header.js"></script>
+
+<body style="background:linear-gradient( #7521ff,#fff); ">
+    <section class="boxed">
+        <h1 class="title">ADD ACTIVITY</h1> <a href="#" class="close"></a>
+        <div class="content">
+            <div class="content-box">
+                <div class="container-fluid label-input">
+                    <label>Activity Name </label>
+                    <input id="acc-name" name="acc-name" type="text" placeholder="(Ex.Walking Routine)" size="45"
+                        required />
+                </div>
+                <div class="container-fluid label-input">
+                    <label>Description </label>
+                    <input id="description" name="description" type="text" placeholder="(Ex.Morning Walking Routine)"
+                        size="45" />
+                </div>
+                <div class="container-fluid label-select">
+                    <label id="type-label">Types of Activity</label>
+                    <select name="Types">
+                        <option value="Running"> Running </option>
+                        <option value="Walking"> Walking </option>
+                        <option value="Swimming"> Swimming </option>
+                        <option value="Biking"> Biking </option>
+                        <option value="Hiking"> Hiking </option>
+                    </select>
+                </div>
+                <div class="container-fluid label-input">
+                    <label>Time </label>
+                    <input id="time" type="time" name="time" value="hh:mm"> <a href="#" class="button-am">AM</a> <a
+                        href="#" class="button-pm">PM</a>
+                </div>
+                <div class="container-fluid label-input">
+                    <label>Date</label>
+                    <input id="date" name="date" type="date" placeholder="dd-mm-yyyy" required />
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="end-button">
+        <input class="next-button" type="button" value="Save">
+    </div>
+</body>
+
+</html>
