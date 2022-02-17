@@ -1,21 +1,19 @@
-* {
-  background-color: palevioletred;
-}
-
 body {
+  background-color: pink;
   display: flex;
   justify-content: center;
 }
 
 h2 {
-  background-color: purple;
-  padding: 20px;
-  border-radius: 10px;
-  color: #fff;
+  background-color: plum;
+  padding: 25px;
+  border-radius: 15px;
 }
 
 button {
-  background-color: #fff;
+  background-color: blueviolet;
+  color: #fff;
   padding: 15px;
+  font-size: 15px;
   border-radius: 10px;
 }
