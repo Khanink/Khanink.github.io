@@ -11,4 +11,5 @@ function askMyName() {
  const h1message = document.getElementById("name").innerHTML
 //  ใช้คำสั่ง document.getElementById เหมือนใน askMyName เพื่อเอาข้อความใน h1 มาใส่
     alert(h1message + 'ถ้ารีบขนาดนี้ทำไมไม่มาตั้งแต่เมื่อวาน')
+    
  }
