@@ -21,8 +21,8 @@ function calAge() {
 }
 
 function loadProfile() {
-   const MyName = prompt("Please enter your name");
-   const Province = prompt("Please enter your province");
-   document.getElementById("my-name").innerHTML = MyName;
-   document.getElementById("my-province").innerHTML = Province;
+   const MyName = "Khanink";
+   const Province = "Chachoengsao";
+   document.getElementById("my-name").innerHTML =  MyName;
+   document.getElementById("my-province").innerHTML =  Province;
 }
